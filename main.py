@@ -107,12 +107,12 @@ class SudokuSolverGUI:
                 self.entries[i][j].insert(0, str(self.puzzle[i][j]))
 
     def show_rules(self):
-        rules = (
+        rule = (
             "1. Each row must contain the numbers from 1 to 9, without repetitions.\n"
             "2. Each column must contain the numbers from 1 to 9, without repetitions.\n"
             "3. The digits can only appear once in each 3x3 box.\n"
         )
-        messagebox.showinfo("Sudoku Rules", rules)
+        messagebox.showinfo("Sudoku Rules", rule)
 
 if __name__ == "__main__":
     try:
