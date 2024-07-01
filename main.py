@@ -11,7 +11,7 @@ def solve_sudoku(puzzle):
 
     for num in range(1, 10):
         if is_valid(puzzle, num, (row, col)):
-            board[row][col] = num
+            puzzle[row][col] = num
 
             if solve_sudoku(puzzle):
                 return True
