@@ -57,7 +57,7 @@ class SudokuSolverGUI:
         self.root = root
         self.root.title("Sudoku Solver")
 
-        self.board = [
+        self.puzzle = [
             [7, 8, 0, 4, 0, 0, 1, 2, 0],
             [6, 0, 0, 0, 7, 5, 0, 0, 9],
             [0, 0, 0, 6, 0, 1, 0, 7, 8],
